@@ -1,0 +1,32 @@
+---
+- src: geerlingguy.apache
+  version: 3.1.0
+- src: geerlingguy.apache-php-fpm
+  version: 1.1.0
+- src: geerlingguy.composer
+  version: 1.7.6
+- src: geerlingguy.git
+  version: 2.1.0
+- src: geerlingguy.mysql
+  version: 2.9.5
+- src: geerlingguy.php
+  version: 3.7.0
+- src: geerlingguy.php-memcached
+  version: 2.0.2
+- src: geerlingguy.php-mysql
+  version: 2.0.2
+- src: geerlingguy.php-pecl
+  version: 1.4.1
+- src: geerlingguy.php-pgsql
+  version: 1.0.1
+- src: geerlingguy.php-versions
+  version: 4.0.2
+- src: geerlingguy.php-xdebug
+  version: 3.0.0
+- src: geerlingguy.php-xhprof
+  version: 3.0.0
+- src: geerlingguy.postgresql
+  version: 2.0.1
+- src: geerlingguy.repo-remi
+  version: 1.2.0
+
