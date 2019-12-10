@@ -10,7 +10,7 @@ That's it. Everything else is up to you.
 
 Clone or download the repo, provision, run.
 
-```
+```bash
 $ git clone https://github.com/netsensei/devbox.git devbox
 $ cd devbox
 $ ansible-galaxy install -p provisioning/roles -r provisioning/requirements.yml
@@ -30,6 +30,8 @@ Building countless ansible boxes has taught me a few things:
 
 A barebones box serves as a jumping board leaving the choice entirely with the 
 developer whether or not to add specific boilerplate, glue code or tweaks.
+
+... or simply configure everything by hand inside the VM.
 
 ## License
 
