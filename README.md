@@ -1,5 +1,7 @@
 # Devbox
 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
 > “I've always said to myself that if a little pocket calculator can do it why shouldn't I?” 
 -- Roald Dahl, Matilda
 
