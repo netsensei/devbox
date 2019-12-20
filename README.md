@@ -35,7 +35,22 @@ developer whether or not to add specific boilerplate, glue code or tweaks.
 
 ... or simply configure everything by hand inside the VM.
 
+## What's inside?
+
+The box comes with an Ansible playbook and several roles by [Jeff Geerling](http://github.com/geerlingguy).
+
+* Git
+* Apache
+* PHP
+* MySQL
+* PostgreSQL
+* Composer
+
+Optional:
+
+* php-xdebug
+* php-xprof
+
 ## License
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) File for more information.
-
