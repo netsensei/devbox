@@ -1,0 +1,22 @@
+---
+# tasks file for common
+
+- name: ensure packages are installed
+  yum:
+    name: "{{ packages }}"
+  vars:
+    packages:
+      - vim
+      - zip
+      - unzip
+      - net-tools
+      - screen
+      - htop
+
+- name: Add customized .bashrc to vagrant user
+  template:
+    src: templates/bash_profile.j2
+    dest: /home/vagrant/.bash_profile
+    owner: vagrant
+    group: vagrant
+    mode: '0644'
