@@ -51,6 +51,18 @@ Optional:
 * php-xdebug
 * php-xprof
 
+## Shared folders on Fedora 31
+
+NFS sharing will be blocked by firewalld on Fedora. You will need to add these rules
+to allow nfs, mountd and rpc-bind to communicate with the nfs-client in the box:
+
+```bash
+firewall-cmd --permanent --add-service=nfs
+firewall-cmd --permanent --add-service=mountd
+firewall-cmd --permanent --add-service=rpc-bind
+firewall-cmd --reload
+```
+
 ## License
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) File for more information.
