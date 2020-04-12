@@ -15,3 +15,5 @@
     - { role: geerlingguy.postgresql,                tags: [ "postgresql" ] }
     - { role: geerlingguy.php-pgsql,                 tags: [ "postgresql" ] }
     - { role: geerlingguy.composer,                  tags: [ "php" ] }
+    - { role: geerlingguy.nodejs,                    tags: [ "nodejs" ] } 
+    - { role: yarn,                                  tags: [ "yarn" ] } 
