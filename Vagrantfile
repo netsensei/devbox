@@ -78,7 +78,7 @@ Vagrant.configure("2") do |config|
   # information on available options.
   config.vm.provider "virtualbox" do |vb|
     # Customize the amount of memory on the VM:
-    vb.memory = "1024"
+    vb.memory = "5012"
   end
 
   # Enable provisioning with a shell script. Additional provisioners such as
