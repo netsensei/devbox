@@ -94,7 +94,8 @@ Vagrant.configure("2") do |config|
   end
 
   aliases = [
-    "netsensei.box"
+    "netsensei.box",
+    "sage.box"
   ]
   
   if Vagrant.has_plugin?('vagrant-hostsupdater')
